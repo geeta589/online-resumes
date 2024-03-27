@@ -1,32 +1,35 @@
 .contactinfo{
     border: solid;
-    justify-content:space-around;
+    justify-content:space-between;
     height: 300;
     flex-flow: column;
       
 }
 img{
-    width: 200px;
-    height: 200px;
+    border: solid;
+    width: 400px;
+    height: 300px;
 }
 section{
     display: flex;
     border: 1px solid gray ;
-    background-color: black;
+    background-color: burlywood;
     flex-direction:column ;
 }
 p{
     color:gray;
+    font-size: 20px;
 }
 h1{
-
-    color: white;
+    border: solid;
+   /* margin: auto; */
+    color:black;
 }
 h2{
     color: white;
 }
 h3{
-    
+    font-size: 40px;
     color: white;
 }
 h4{
@@ -36,13 +39,22 @@ h4{
 h5{
     justify-content:right;
     display: flex;
-    align-content:space-between;
+    align-content:space-between; 
     color: white;
+  /*  word-spacing: -5px; */
 }
 .ProfileInfo
 {
    display: flex; 
    border: solid;
     height: 200;
-    padding: 1px;
+    padding: 2px;
+    justify-content:space-between ;
+}
+.Employment-date
+{
+    display: flex;
+}
+h5{
+    margin-left:auto ;
 }

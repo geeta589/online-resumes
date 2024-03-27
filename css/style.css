@@ -1,0 +1,48 @@
+.contactinfo{
+    border: solid;
+    justify-content:space-around;
+    height: 300;
+    flex-flow: column;
+      
+}
+img{
+    width: 200px;
+    height: 200px;
+}
+section{
+    display: flex;
+    border: 1px solid gray ;
+    background-color: black;
+    flex-direction:column ;
+}
+p{
+    color:gray;
+}
+h1{
+
+    color: white;
+}
+h2{
+    color: white;
+}
+h3{
+    
+    color: white;
+}
+h4{
+    
+    color: white;
+}
+h5{
+    justify-content:right;
+    display: flex;
+    align-content:space-between;
+    color: white;
+}
+.ProfileInfo
+{
+   display: flex; 
+   border: solid;
+    height: 200;
+    padding: 1px;
+}
